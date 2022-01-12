@@ -1,0 +1,72 @@
+@import "~bootstrap/scss/bootstrap";
+
+body{
+    background:#FAFAFA;
+}
+
+.menu{
+   
+    ul{
+        margin:0;
+        li{
+            list-style:none;
+            display: inline-block;
+            a{
+                padding:25px 10px;
+                display:flex;
+                color:white!important;
+                font-size:13px;
+                text-decoration:none;
+            }
+
+        }
+    }
+}
+
+section{
+    height:95vh;
+}
+
+.other{
+    display:none;
+    background:white;
+    padding:10px;
+}
+
+.clickprof{
+    &:hover{
+        cursor:pointer;
+    }
+}
+
+.compbloc{
+    display:none;
+    .elem{
+        display:flex;
+        padding:10px 0;
+    }
+    .progress{
+        width:65%;
+        margin-left:auto;
+    }
+}
+
+.menucomp{
+    li{
+        list-style:none;
+        padding:20px;
+        margin:10px 0;
+        border:2px solid #E2E2E2;
+        display:flex;
+        align-items:center;
+
+        &:hover{
+            cursor:pointer;
+        }
+    }
+}
+
+.clickcomp{
+    background:#2E2E2E;
+    color:white;
+}

@@ -1,0 +1,555 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+
+<section id="presentation">
+
+        <div class="row h-100 w-100 m-0">
+             <div class="col-2 d-flex flex-column" style="position:relative">
+                <div style="transform:rotate(-90deg);font-size:100px;position:absolute;top:50px;left:50%">
+                    hello
+                </div>
+                <div style="width:100%;position:absolute;top:50%;z-index:1">
+                    <div style="width:50%;margin-left:70%;background:#2E2E2E;height:15px;margin-bottom:20px">
+                    </div>
+                    <div style="width:50%;margin-left:70%;background:#2E2E2E;height:15px;margin-bottom:20px">
+                    </div>
+                    <div style="width:50%;margin-left:70%;background:#2E2E2E;height:15px;;margin-bottom:20px">
+                    </div>
+                    <div style="width:50%;margin-left:70%;background:#2E2E2E;height:15px">
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="col-10" style="height:100%;background:#0F0F0F;position:relative;padding:0;overflow-y:hidden;overflow-x:visible">
+                <img style="width:100%;left:0;opacity:37%;margin-top:-50px" src="{{ asset('build/images/photomelissa.jpg') }}" alt="photo melissa">
+                <div style="width:100%;position:absolute;top:90%;left:-1.5%;">
+                    <a href="#experiencespro" style="text-decoration:none;display:flex;align-items:center"><i class="fas fa-chevron-circle-down" style="font-size:50px;margin-right:20px;color:#2E2E2E;"></i> <span style="color:white">Expériences professionnelles</span></a>
+                </div>
+                <div id="profil" class="clickprof" style="width:20%;position:absolute;top:50%;left:35%;display:flex;flex-direction:column">
+                    <i class="fas fa-plus-circle" style="font-size:50px;color:white"></i> <span style="margin-left:20px;color:white">Profil</span>
+                    <div id="profilb" class="other">
+                       Mélissa Luttenschlager <br>
+                       Née le 20/12/1997 <br>
+                       Permis B avec voiture
+                    </div>
+                </div>
+                <div id="caract" class="clickprof" style="width:20%;position:absolute;top:30%;left:60%;display:flex;flex-direction:column">
+                    <i class="fas fa-plus-circle" style="font-size:50px;color:white"></i> <span style="margin-left:20px;color:white">Caractéristiques</span>
+                    <div id="caractb" class="other">
+                    Créative <br>
+                    Organisée <br>
+                    Calme<br>
+                    Polyvalente
+                    </div>
+                </div>
+                <div style="position:absolute;top:50%;left:80%;width:200px;color:white">
+                    <span style="transform:rotate(90deg);display:flex">Mélissa   Luttenschlager</span>
+                </div>
+                
+            </div>
+        </div>
+       
+  
+</section>
+
+
+<section id="experiencespro" style="background:#2E2E2E;position:relative">
+    <div style="position:absolute;top:-10%;z-index:1;height:100%;display:flex;left:80%">
+                    <div style="width:15px;background:white;height:15%;margin-right:20px">
+                    </div>
+                    <div style="width:15px;background:white;height:15%;margin-right:20px">
+                    </div>
+                    <div style="width:15px;background:white;height:15%;margin-right:20px">
+                    </div>
+                    <div style="width:15px;background:white;height:15%">
+                    </div>
+    </div>
+     <div class="container h-100">
+
+        <h2 style="padding:30px 0;text-align:center;width:100%;font-size:50px;color:white">expériences professionnelles</h2>
+        <div style="position:absolute;width:3px;height:80%;background:white;left:50%;transform:translateX(-50%)"></div>
+        <div class="d-flex flex-column" style="position:absolute;left:50%;transform:translateX(-50%)">
+            <div style="background:white;height:30px;width:30px;border-radius:100%;margin-bottom:100px;margin-top:100px"></div>
+            <div style="background:white;height:30px;width:30px;border-radius:100%;margin-bottom:100px"></div>
+            <div style="background:white;height:30px;width:30px;border-radius:100%;margin-bottom:100px"></div>
+            <div style="background:white;height:30px;width:30px;border-radius:100%;margin-bottom:100px"></div>
+            <div style="background:white;height:30px;width:30px;border-radius:100%"></div>
+        </div>
+        <div class="row" style="color:white">
+           
+            <div class="col-6" style="text-align:right;margin-top:100px;padding-right:50px;font-size:40px">2020-2022</div>  
+            <div class="col-6" style="margin-top:100px;padding-left:50px">
+                <b>CIBEO CONSULTING</b><br>
+                2 ans - Alternance Master MIAGE <br>
+                Développement d'applications web internes sous Laravel et développements spécifiques sous l'ERP Odoo pour des clients.
+            </div>
+
+            <div class="col-6" style="text-align:right;padding-right:50px;margin-top:35px;font-size:40px">2020</div>  
+            <div class="col-6" style="padding-left:50px;margin-top:35px">
+                <b>S2I EVOLUTION</b><br>
+                4 mois - Stage Licence Informatique MIAGE <br>
+                Conception de sites web sous Wordpress (Maquettage, développement et mise en production)
+            </div>
+
+            <div class="col-6" style="text-align:right;padding-right:50px;margin-top:35px;font-size:40px">2017 - 2018</div>  
+            <div class="col-6" style="padding-left:50px;margin-top:35px">
+                <b>ASSOCIATION SOURIRE ENSEMBLE</b><br>
+                6 mois - Service civique <br>
+                Conception de supports de communication (flyers, affiches, documents de présentation, roll-up et carte de visite)
+            </div>
+
+            <div class="col-6" style="text-align:right;padding-right:50px;margin-top:35px;font-size:40px">2017</div>  
+            <div class="col-6" style="padding-left:50px;margin-top:35px">
+                <b>DIRECTION DU NUMERIQUE DE L'UHA</b><br>
+                10 semaines - Stage 2ème année DUT MMI <br>
+                Conception d'une visite virtuelle du Learning Center en 3D (Modélisation et développement)
+            </div>
+
+            <div class="col-6" style="text-align:right;padding-right:50px;margin-top:35px;font-size:40px">2016</div>  
+            <div class="col-6" style="padding-left:50px;margin-top:35px">
+                <b>GROUPE LARGER COMMUNICATION</b><br>
+                2 semaines - Stage 1ère année DUT MMI <br>
+                Conception d'affiche, de logo et de carte de visite ainsi que du montage vidéo.
+            </div>
+
+        </div>
+        
+    </div>    
+</section>
+
+
+<section id="competences" style="background:#FAFAFA;position:relative;height:75vh">
+    
+    <div style="position:absolute;top:-8%;z-index:1;height:100%;display:flex;left:80%">
+                    <div style="width:15px;background:white;height:15%;margin-right:20px">
+                    </div>
+                    <div style="width:15px;background:white;height:15%;margin-right:20px">
+                    </div>
+                    <div style="width:15px;background:white;height:15%;margin-right:20px">
+                    </div>
+                    <div style="width:15px;background:white;height:15%">
+                    </div>
+    </div>
+    <div class="container" style="position:relative;padding:30px 0;margin-bottom:20px">
+        <h2 style="font-size:50px;text-align:right;position:absolute;z-index:1;width:80%">compétences</h2>
+    </div>
+    <div class="container" style="position:relative;padding:30px 0">
+        <div class="row w-100" style="position:absolute;z-index:1">
+            <div class="col-5">
+                <ul class="menucomp">
+                    <li id="sys" class="clickcomp">
+                        Systèmes d'exploitation <i class="fas fa-chevron-right" style="margin-left:auto"></i>
+                    </li>
+                    <li id="lang">
+                        Languages de programmation <i class="fas fa-chevron-right" style="margin-left:auto"></i>
+                    </li>
+                    <li id="fram">
+                        Framework <i class="fas fa-chevron-right" style="margin-left:auto"></i>
+                    </li>
+                    <li id="ado">
+                        Suite Adobe <i class="fas fa-chevron-right" style="margin-left:auto"></i>
+                    </li>
+                    <li id="erp">
+                        ERP <i class="fas fa-chevron-right" style="margin-left:auto"></i>
+                    </li>
+                    <li id="log">
+                        Autres logiciels <i class="fas fa-chevron-right" style="margin-left:auto"></i>
+                    </li>
+                    <li id="sgbd">
+                        SGBD <i class="fas fa-chevron-right" style="margin-left:auto"></i>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="col-7">
+                <div id="content" class="p-5 d-flex flex-column justify-content-center" style="background:#FAFAFA;height:100%">
+                    <div id="sysbloc"  class="compbloc d-flex flex-column">
+                        <div class="elem"><i class="fab fa-windows"></i> Windows 
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem"><i class="fab fa-apple"></i> Mac OS
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem"><i class="fab fa-linux"></i> Linux
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="langbloc" class="compbloc flex-column">
+                        <div class="elem">PHP
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem">HTML/CSS/SASS
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Javascript/Jquery
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">C++
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Java
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Python
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">SQL
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="frambloc" class="compbloc flex-column">
+                        <div class="elem">Wordpress
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Laravel
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Symfony
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Bootstrap
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="adobloc" class="compbloc flex-column">
+                        <div class="elem">Photoshop
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem">Illustrator
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem">Indesign
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem">Adobe XD
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem">Premiere Pro
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div class="elem">After Effect
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="logbloc" class="compbloc flex-column">
+                        <div class="elem">Microsoft Word
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Microsoft Excel
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">PowerPoint
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">3DsMax
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">XCode
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Android Studio
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Qt Creator
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Php Storm
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Visual Studio Code
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Eclipse
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sgbdbloc" class="compbloc flex-column">
+                        <div class="elem">PostGres SQL
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">MySQL
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Microsoft Access
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">MongoDB
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="erpbloc" class="compbloc flex-column">
+                        <div class="elem">Odoo
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="elem">Dynamic Business Central
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+    <div style="position:absolute;height:105%;background:#656460;width:30%;right:0;top:-5%"></div>
+</section>
+
+<section id="formations" style="background:#2E2E2E;height:80vh;position:relative">
+     <div class="container h-100">
+
+        <h2 style="padding:30px 0;text-align:center;width:100%;font-size:50px;color:white">formations</h2>
+        <div style="position:absolute;width:3px;height:80%;background:white;left:50%;transform:translateX(-50%)"></div>
+        <div class="d-flex flex-column" style="position:absolute;left:50%;transform:translateX(-50%)">
+            <div style="background:white;height:30px;width:30px;border-radius:100%;margin-bottom:100px;margin-top:100px"></div>
+            <div style="background:white;height:30px;width:30px;border-radius:100%;margin-bottom:100px"></div>
+            <div style="background:white;height:30px;width:30px;border-radius:100%;margin-bottom:100px"></div>
+            <div style="background:white;height:30px;width:30px;border-radius:100%;"></div>
+        </div>
+        <div class="row" style="color:white">
+           
+            <div class="col-6" style="text-align:right;margin-top:100px;padding-right:50px;font-size:40px">2020-2022</div>  
+            <div class="col-6" style="margin-top:100px;padding-left:50px">
+                <b>Master Méthodes Informatiques Appliquées à la Gestion des Entreprises</b><br>
+                FST Mulhouse (Université de Haute-Alsace) <br>
+                Développement informatique (C++, Java, Web, Python ...), gestion des entreprises (comptabilité,analyse fincancière,économie,gestion de production ...) et big data
+            </div>
+
+            <div class="col-6" style="text-align:right;padding-right:50px;margin-top:35px;font-size:40px">2018-2020</div>  
+            <div class="col-6" style="padding-left:50px;margin-top:35px">
+                <b>Licence Méthodes Informatiques Appliquées à la Gestion des Entreprises</b><br>
+                FST Mulhouse (Université de Haute-Alsace) <br>
+                Développement informatique (C++, Java, Web, Python ...), gestion des entreprises (comptabilité,analyse fincancière,économie,gestion de production ...)
+            </div>
+
+            <div class="col-6" style="text-align:right;padding-right:50px;margin-top:35px;font-size:40px">2015-2017</div>  
+            <div class="col-6" style="padding-left:50px;margin-top:35px">
+                <b>DUT Métiers du Multimédia et de l'Internet</b><br>
+                IUT de Mulhouse (Université de Haute-Alsace) <br>
+                Développement web (PHP, HTML, CSS, Javascript), montage vidéo et Infographie 2D et 3D
+            </div>
+
+            <div class="col-6" style="text-align:right;padding-right:50px;margin-top:35px;font-size:40px">2012-2015</div>  
+            <div class="col-6" style="padding-left:50px;margin-top:35px">
+                <b>Baccalauréat Scientifique spécialité SVT</b><br>
+                Lycée Théodore Deck de Guebwiller <br>
+                Cursus Général
+            </div>
+
+        </div>
+        
+    </div>      
+</section>
+
+<section id="langues" style="background:#FAFAFA;position:relative;height:75vh">
+    <div class="container" style="position:relative;padding:30px 0;margin-bottom:20px">
+        <h2 style="font-size:50px;left:20%;position:absolute;z-index:1;">langues</h2>
+    </div>
+    <div class="container" style="position:relative;margin-top:100px">
+        <div class="d-flex w-100 m-0" style="position:absolute;z-index:1">
+            <img style="width:150px;margin-left:18%" src="{{ asset('build/images/english.png') }}" alt="english flag">
+            <div class="d-flex justify-content-center flex-column" style="margin-left:20px">
+                <div style="font-weight:bold;font-size:30px">english</div>
+                Level B2
+            </div>
+            <div class="d-flex flex-column justify-content-center" style="width:20%;margin-right:20px;margin-left:50px">
+                Writing
+                <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center" style="width:20%;margin-right:20px">
+                Comprehension
+                <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center" style="width:20%">
+                Speaking
+                <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="position:relative;margin-top:250px">
+        <div class="d-flex w-100 m-0" style="position:absolute;z-index:1">
+            <img style="width:150px;margin-left:18%" src="{{ asset('build/images/german.png') }}" alt="german flag">
+            <div class="d-flex flex-column justify-content-center" style="margin-left:20px">
+                <div style="font-weight:bold;font-size:30px">deutsch</div>
+                Niveau A2
+            </div>
+            <div class="d-flex flex-column justify-content-center" style="width:20%;margin-right:20px;margin-left:40px">
+                Schreiben
+                <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center" style="width:20%;margin-right:20px">
+                Verstehen
+                <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center" style="width:20%">
+                Sprechen
+                <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="position:relative;margin-top:400px">
+        <div class="d-flex w-100 m-0" style="position:absolute;z-index:1">
+            <img style="width:150px;margin-left:18%" src="{{ asset('build/images/japan.png') }}" alt="japan flag">
+            <div class="d-flex flex-column justify-content-center" style="margin-left:20px">
+                <div style="font-weight:bold;font-size:30px">日本</div>   
+                レベル A1
+            </div>
+        </div>
+    </div>
+     <div style="position:absolute;height:105%;background:#656460;width:30%;left:0;top:-5%"></div>    
+</section>
+
+<section id="passions" style="background:#656460;height:35vh;">
+     <div class="container" style="position:relative;">
+        <div class="row w-100" style="position:absolute;">
+            <div class="col-12 p-5" style="background:#FAFAFA;position:relative">
+                <div style="width:100%;position:absolute;top:50%;z-index:1;left:-5%">
+                    <div style="width:10%;background:#2E2E2E;height:15px;margin-bottom:20px">
+                    </div>
+                    <div style="width:10%;background:#2E2E2E;height:15px;margin-bottom:20px">
+                    </div>
+                    <div style="width:10%;;background:#2E2E2E;height:15px;;margin-bottom:20px">
+                    </div>
+                    <div style="width:10%;background:#2E2E2E;height:15px">
+                    </div>
+                </div>
+                <h2 style="position:absolute;font-size:50px;left:0;transform:rotate(-90deg);top:-5%">passions</h2>
+                <div class="row p-5">
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center justify-content-center" style="height:50px;width:50px;background:#2E2E2E;border-radius:1000%"><i class="fas fa-bullseye" style="color:white;font-size:20px"></i></div>
+                        <div style="margin-top:10px">Tir sportif</div>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center justify-content-center" style="height:50px;width:50px;background:#2E2E2E;border-radius:1000%"><i class="fas fa-horse-head" style="color:white;font-size:20px"></i></div>
+                        <div style="margin-top:10px">Equitation</div>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center mb-5">
+                        <div class="d-flex align-items-center justify-content-center" style="height:50px;width:50px;background:#2E2E2E;border-radius:1000%"><i class="fas fa-music" style="color:white;font-size:20px"></i></div>
+                        <div style="margin-top:10px">Piano</div>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center justify-content-center" style="height:50px;width:50px;background:#2E2E2E;border-radius:1000%"><i class="fas fa-vihara" style="color:white;font-size:20px"></i></div>
+                        <div style="margin-top:10px">Culture nippone</div>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center justify-content-center" style="height:50px;width:50px;background:#2E2E2E;border-radius:1000%"><i class="fas fa-pencil-alt" style="color:white;font-size:20px"></i></div>
+                        <div style="margin-top:10px">Graphisme / dessin</div>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center justify-content-center" style="height:50px;width:50px;background:#2E2E2E;border-radius:1000%"><i class="fas fa-dog" style="color:white;font-size:20px"></i></div>
+                        <div style="margin-top:10px">Sports canins</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</section>
+
+<section id="contact" style="background:#FAFAFA;height:30vh">
+    <div class="container">
+        <h2 style="font-size:50px;margin:50px 0">contact</h2>
+        <div class="row">
+            <div class="col-4">
+            26B rue des Héros<br>
+            68120 Pfastatt
+            </div>
+            <div class="col-4">
+            06 19 12 04 43<br>
+            mel68lutten@gmail.com
+            </div>
+            <div class="col-4">
+                <a style="color:#2E2E2E" href="https://www.linkedin.com/in/m%C3%A9lissa-luttenschlager-1b0807114?originalSubdomain=fr"><i class="fab fa-linkedin" style="margin-right:10px"></i></a><br>
+                <a style="color:#2E2E2E" href="https://www.artstation.com/melissa_luttenschlager"><i class="fab fa-artstation"></i></a>
+            </div>
+        </div>
+    </div>    
+</section>
+
+{% endblock %}
+
